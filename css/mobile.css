@@ -50,6 +50,9 @@
   .section-four-list {
   justify-content: center;
   }
+  .section-four-list-item {
+  width: calc((100% - 48px) / 1);
+    }
 
 /* Footer bölümü Mobile CSS Düzenlemesini İçerir */
 

@@ -259,6 +259,8 @@ a {
 }
 .section-three-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 .section-three-list-content {
@@ -336,6 +338,7 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
+
 }
 .section-four-title {
   margin-bottom: 72px;
@@ -353,6 +356,8 @@ a {
 }
 
 .section-four-list-item {
+ 
+  width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -515,6 +520,7 @@ a {
 .footer-content-container {
   display: flex;
   align-items: baseline;
+  
   gap: 24px;
   margin-bottom: 72px;
 }
